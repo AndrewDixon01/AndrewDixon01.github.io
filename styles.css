@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+	padding:0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: rgba(112, 112, 112, 0.45);
+	padding: 0; 
+	margin: 0; 
+}
+
+h1, h2 {
+	text-align: center; 
+	color: gold; 
+}
+
+h1 {
+	height: 72px;
+	font-style: italic;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-size: 48px;
+	font-weight: 700;
+}
+
+h2 {
+	font-style: italic;
+	font-weight: 700;
+	font-family: 'MS Sans Serif';
+	font-size: 30px;
+}	
+
+section {
+	border-top: 1px solid #333; 
+	padding: 1em 0; 
+}
+
+section.test1 {
+	background-color: #2a6fb6; 
+}
+section.test2 {background-color: #838282
+}
+
+.pictureBlock { 
+	text-align: center; 
+	min-height: 200px;
+}
+
+.pictureBlock img { 
+	width: 250px; 
+	height: 150px; 
+}
+      }
+iframe {float: "center"
+}
