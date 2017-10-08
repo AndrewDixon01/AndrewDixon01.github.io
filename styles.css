@@ -31,27 +31,52 @@ h2 {
 	font-family: 'MS Sans Serif';
 	font-size: 30px;
 }
-
+.container {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
 section {
 	border-top: 1px solid #333; 
-	padding: 1em 0; 
+	padding: 25px; 25px; 0px; 25px
 }
 
 section.test1 {
 	background-image: url("Melbourne Skyline.jpg");
 	background-color: #2a6fb6; 
 }
-section.test2 {background-color: #838282; padding-left: 2cm; padding-right: 2cm;
+section.test2 {
+	background-color: #838282; 
+	padding-left: 2cm; 
+	padding-right: 2cm;
 }
-section.test3 {background-color: #aba8a9
+section.test3 {
+	background-color: #aba8a9
+	padding-left: 2cm;
+	padding-right: 2cm;
+	padding-top: 25px;
+	padding-bottom: 10px;
 }
 .pictureBlock { 
 	text-align: center; 
 	min-height: 200px;
 }
 .button {
-	align-content: center
+	align-content: center;
 }
 .pictureBlock img { 
 	width: 250px; 
 	height: 150px; 
+}
+.button {
+	text-align: center;
+	min-width: 250px;
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.aboutus {
+	padding: 2cm;
+}
